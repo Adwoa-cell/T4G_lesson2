@@ -1,5 +1,40 @@
 .logo{display: flex;}
 .imagelogo{width: 50px;}
 .navigation{display: flex;
-gap: 50px;
+gap: 50px;}
+.hi{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 50px;}
+.paragraph{font-weight: bolder;
+font-size: 30px;
+text-shadow: 3px 8px 5px rgb(111, 139, 192);
+color: rgb(20, 51, 41);text-align: center;}
+#paragraph{text-align: center;}
+.herodiv{
+    background-image: url(../image/istockphoto-1318430559-612x612.jpg);
+    width: 200%; height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+
+    
+}
+
+.categories div{
+    width: 30%;
+    border: 2px solid blue;
+}
+
+
+.categories div img{
+    width: 100%;
+}
+.categories div{
+    margin-bottom: 40px;
 }
